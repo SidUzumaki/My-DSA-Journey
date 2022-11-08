@@ -12,7 +12,6 @@ bool checkPalindrome(int a){
         x = x/10;
         rev = rev*10 + last;
     }
-        cout<<rev<<endl;
     if(a==rev){
         return true;
     }
