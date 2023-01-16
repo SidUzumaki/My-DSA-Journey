@@ -35,3 +35,27 @@ int main()
     }
     return 0;
 }
+
+/*#include<iostream>
+using namespace std;
+
+bool isPalindrome(int x){
+    int last=0, res=0, temp=x;
+    while(temp>0){
+        last=temp%10;
+        temp/=10;
+        res=res*10+last;
+    }
+    return (res==x);
+}
+
+int main(){
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
+    if(isPalindrome(n))
+        cout<<"The input number is a Palindrome.";
+    else
+        cout<<"The input number is not a Palindrome.";
+    return 0;
+}*/
